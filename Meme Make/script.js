@@ -20,20 +20,20 @@ function textChangeListener (evt) {
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
       
       // Text attributes
-      ctx.font = '30pt Impact';
+      ctx.font = '45pt Impact';
       ctx.textAlign = 'center';
       ctx.strokeStyle = 'black';
       ctx.lineWidth = 3;
       ctx.fillStyle = 'white';
       
       if (topLine != null) {
-        ctx.fillText(topLine, canvas.width / 2, 40);
-        ctx.strokeText(topLine, canvas.width / 2, 40);
+        ctx.fillText(topLine, canvas.width / 2, 90);
+        ctx.strokeText(topLine, canvas.width / 2, 90);
       }
       
       if (bottomLine != null) {
-        ctx.fillText(bottomLine, canvas.width / 2, canvas.height - 20);
-        ctx.strokeText(bottomLine, canvas.width / 2, canvas.height - 20);
+        ctx.fillText(bottomLine, canvas.width / 2, canvas.height - 40);
+        ctx.strokeText(bottomLine, canvas.width / 2, canvas.height - 40);
       }
     }
     
